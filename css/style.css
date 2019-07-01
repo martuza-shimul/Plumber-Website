@@ -133,8 +133,8 @@
 #google-reviews {
 display:flex;
 flex-wrap:wrap;
-//display: grid;
-//grid-template-columns: repeat( auto-fit, minmax(320px, 1fr));
+/* //display: grid;
+//grid-template-columns: repeat( auto-fit, minmax(320px, 1fr)); */
 }
 
 .review-item {
@@ -211,7 +211,10 @@ section.pricing {
       color: #fff;
       /* border-radius: 50%; */
   }
-  
+  .pricing .card-header p{
+      margin-top: 15px;
+      font-size: 80%
+  }
   .pricing hr {
     margin: 1.5rem 0;
   }
@@ -287,9 +290,9 @@ section.pricing {
     color:#fff;
 }
 
-.footer{
+/* .footer{
     
-}
+} */
 .footer-block{
     background-color: #1e1d24;
     padding: 50px 10px 30px 10px;
@@ -306,6 +309,10 @@ section.pricing {
     /* color: #f7f7f7 */
     margin-right: 10px
 }
+.footer-block .text-block p a{
+    /* color: #f7f7f7 */
+    color: #eb7e1e
+}
 .footer-copy{
     background-color: #4267b2;
     color: #ccc;
@@ -314,4 +321,51 @@ section.pricing {
 .footer-copy p{
     margin: 0;
     padding: 10px
+}
+
+
+ /* Rates page css */
+
+ .seo small{
+     font-size: 65%;
+     color: #fff;
+     font-weight: 300;
+ }
+
+ .main-content .rates-hero-image{
+    background: url("../images/about-1.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 50px 0;
+}
+
+.main-content .rates-hero-image .hero-text-block {
+    margin: 50px 0;
+}
+.main-content .rates-hero-image .hero-text-block h1, .main-content .rates-hero-image .hero-text-block h4{
+    margin: 25px 0;
+}
+.main-content .rates-hero-image .hero-text-block h1{
+    font-size: 44px;
+    color: #fff;
+    font-weight: 700;
+
+}
+.main-content .rates-hero-image .hero-text-block button{
+    color:#fff;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 15px;
+}
+.main-content .rates-hero-image .hero-form h3, .main-content .rates-hero-image .hero-form h4{
+    margin: 0;
+    color: #fff;
+}
+.main-content .rates-hero-image .hero-form h3{
+    margin-bottom: 20px;
+    padding: 10px
+}
+.main-content .rates-hero-image .hero-form button, .main-content .hero-image .hero-form h3{
+    color: #fff;
+    
 }
