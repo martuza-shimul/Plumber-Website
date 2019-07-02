@@ -414,3 +414,54 @@ section.pricing {
 .faq .card {
     border: 1px solid #4267b2; 
 }
+
+/* Contact page css */
+
+.main-content .contact .hero-form h3, .main-content .contact .hero-form h4{
+    margin: 0;
+}
+.main-content .contact .hero-form h3{
+    margin-bottom: 20px;
+    padding: 10px
+}
+.main-content .contact .hero-form button, .main-content .contact .hero-form h3{
+    color: #fff;
+}
+
+/* .main-content .contact .details{
+    background: url(../images/contact-details.jpg), url(../images/overaly.png); 
+    background: #000 url(../images/contact-details.jpg);
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+*/
+
+  /* #overlay{
+    background-image: url(../images/contact-details3.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    padding: 18% 0;
+    color: #fff
+  } */
+  .main-content .contact{
+      padding: 80px 0 0 0;
+  }
+  
+.main-content .contact .details{
+    
+    padding: 0 0 50px 0;
+
+}
+.main-content .contact .details .text-block h4 i{
+    color: #eb7e1e
+}
+.main-content .contact .details .text-block p{
+    margin-left: 30px;
+    font-weight: 400;
+    color:#4267b2
+}
