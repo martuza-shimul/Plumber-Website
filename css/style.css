@@ -369,3 +369,48 @@ section.pricing {
     color: #fff;
     
 }
+
+/* faq page css */
+
+.main-content .faq-hero-image{
+    background: url("../images/about-1.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding: 150px 0;
+}
+
+.main-content .faq-hero-image .hero-text-block {
+    margin: 50px 0;
+}
+.main-content .faq-hero-image .hero-text-block h1{
+    margin: 25px 0;
+}
+.main-content .faq-hero-image .hero-text-block h1{
+    font-size: 44px;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.faq{
+    margin-top: 50px;
+}
+.faq-header{
+    margin: 30px 0;
+}
+.faq .card .btn-link{
+    color: #4267b2
+}
+.faq .card .btn-link:hover {
+    color: #eb7e1e;
+    text-decoration: none;
+}
+
+.faq .card .btn-link.focus, .btn-link:focus {
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.faq .card {
+    border: 1px solid #4267b2; 
+}
