@@ -1,5 +1,10 @@
 
-
+.container-fluid {
+    
+    padding-right: 0;
+    padding-left: 0;
+    
+}
 .base-color{
     background-color: #4267b2;
 }
@@ -326,7 +331,7 @@ section.pricing {
 
  /* Rates page css */
 
- .seo small{
+ .seo small i{
      font-size: 65%;
      color: #fff;
      font-weight: 300;
@@ -466,4 +471,9 @@ section.pricing {
 .flex-item{
     flex:1;
     min-width:150px
+}
+
+.cl-white{
+    color: #fff!important;
+    background: #fff!important;
 }
