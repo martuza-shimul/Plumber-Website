@@ -83,8 +83,15 @@
 @media (max-width: 991.98px) { 
     .main-content .features .feature-text-block{
         text-align: center;
+    
         
     }
+    /* .container-fluid {
+    
+        padding-right: 15px!important;
+        padding-left: 15px!important;
+        
+    } */
 }
 .main-content .branding-contact{
     background: url("../images/home-2.jpg");
@@ -332,7 +339,7 @@ section.pricing {
  /* Rates page css */
 
  .seo small i{
-     font-size: 65%;
+     font-size: 50%;
      color: #fff;
      font-weight: 300;
  }
