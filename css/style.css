@@ -24,10 +24,11 @@
 }
 
 .main-content .hero-image{
-    background: url("../images/home-1.jpg");
+    background: url("../images/Commercial-gas-engineer.jpg");
     background-repeat: no-repeat;
     background-position: left top;
-    padding: 50px 0;
+    padding: 80px 0;
+    background-attachment: fixed
 }
 .main-content .hero-image .hero-text-block {
     margin: 50px 0;
@@ -37,12 +38,19 @@
 }
 .main-content .hero-image .hero-text-block h1{
     font-size: 44px;
-    color: #4267b2;
+    color: #fff;
     font-weight: 700;
+
+}
+.main-content .hero-image .hero-text-block h4{
+    
+    color: #fff;
+    
 
 }
 .main-content .hero-image .hero-text-block button{
     color:#fff;
+    /* background-color:#eb7e1e; */
     font-size: 30px;
     font-weight: 700;
     padding: 15px;
@@ -94,9 +102,9 @@
     } */
 }
 .main-content .branding-contact{
-    background: url("../images/home-2.jpg");
+    background: url("../images/adjustable-wrench-and-pipes.jpg");
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: left top;
     /* background-attachment: fixed; */
     /* padding:50px; */
 }
@@ -290,9 +298,9 @@ section.pricing {
 }
 
 .main-content .emergency-contact{
-    background: url("../images/home-5.jpg");
+    background: url("../images/residential-floor-heating.jpg");
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: left top;
     /* background-attachment: fixed; */
     /* padding:50px; */
 }
@@ -345,10 +353,11 @@ section.pricing {
  }
 
  .main-content .rates-hero-image{
-    background: url("../images/about-1.jpg");
+    background: url("../images/rates-bg.jpg");
     background-repeat: no-repeat;
     background-position: left top;
-    padding: 50px 0;
+    background-attachment: fixed;
+    padding: 80px 0;
 }
 
 .main-content .rates-hero-image .hero-text-block {
@@ -358,7 +367,7 @@ section.pricing {
     margin: 25px 0;
 }
 .main-content .rates-hero-image .hero-text-block h1{
-    font-size: 44px;
+    font-size: 64px;
     color: #fff;
     font-weight: 700;
 
@@ -385,9 +394,9 @@ section.pricing {
 /* faq page css */
 
 .main-content .faq-hero-image{
-    background: url("../images/about-1.jpg");
+    background: url("../images/faq-page-bg.jpg");
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: left top;
     padding: 150px 0;
 }
 
@@ -396,6 +405,7 @@ section.pricing {
 }
 .main-content .faq-hero-image .hero-text-block h1{
     margin: 25px 0;
+    
 }
 .main-content .faq-hero-image .hero-text-block h1{
     font-size: 44px;
@@ -429,6 +439,13 @@ section.pricing {
 
 /* Contact page css */
 
+.main-content .contact-hero-image{
+    background: url("../images/contact-page-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 150px 0;
+}
+
 .main-content .contact .hero-form h3, .main-content .contact .hero-form h4{
     margin: 0;
 }
@@ -460,6 +477,12 @@ section.pricing {
 }
 
 /* Area's covered page css */
+.main-content .area-hero-image{
+    background: url("../images/area-page-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 150px 0;
+}
 
 .nav-tabs .nav-item {
     margin: 0 auto;
