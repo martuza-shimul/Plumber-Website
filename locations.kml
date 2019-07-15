@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+	<Document>
+		<name>Locations for 24 Hour Plumber </name>
+		<atom:author>
+			<atom:name>Adam </atom:name>
+		</atom:author>
+		<atom:link rel="related" href="https://www.plumbersintowerhamlets.co.uk" />
+		<Folder>
+			<Placemark>
+				<name><![CDATA[Commercial Gas Engineer London ]]></name>
+				<address><![CDATA[373 Hanbury Street, Aldgate, Tower Hamlets , E1 5JZ, United Kingdom]]></address>
+				<phoneNumber><![CDATA[020 8088 7808]]></phoneNumber>
+				<description><![CDATA[Commercial Gas Engineer London<br />
+Available Round The Clock <br />
+Fast Response Time <br />
+Best Rates Guaranteed <br />
+Work Guaranteed]]></description>
+				<Point>
+					<coordinates>-0.0640126,51.5197926,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name><![CDATA[Commercial Gas Engineer London ]]></name>
+				<address><![CDATA[373 Hanbury Street, Aldgate, Tower Hamlets , E1 5JZ, United Kingdom]]></address>
+				<phoneNumber><![CDATA[020 8088 7808]]></phoneNumber>
+				<description><![CDATA[Commercial Gas Engineer London<br />
+Available Round The Clock <br />
+Fast Response Time <br />
+Best Rates Guaranteed <br />
+Work Guaranteed]]></description>
+				<Point>
+					<coordinates>-0.0640126,51.5197926,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+</kml>

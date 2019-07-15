@@ -1,0 +1,509 @@
+
+.container-fluid {
+    
+    padding-right: 0!important;
+    padding-left: 0!important;
+    
+}
+.base-color{
+    background-color: #4267b2;
+}
+
+.secondary-color{
+    background-color:#eb7e1e;
+}
+.top-bar-text {
+    color: #fff;
+    padding: 8px;
+    font-size: 20px;
+    margin: 0;
+}
+.top-bar-text a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.main-content .hero-image{
+    background: url("../images/Commercial-gas-engineer.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 80px 0;
+    background-attachment: fixed
+}
+.main-content .hero-image .hero-text-block {
+    margin: 50px 0;
+}
+.main-content .hero-image .hero-text-block h1, .main-content .hero-image .hero-text-block h4{
+    margin: 25px 0;
+}
+.main-content .hero-image .hero-text-block h1{
+    font-size: 44px;
+    color: #fff;
+    font-weight: 700;
+
+}
+.main-content .hero-image .hero-text-block h4{
+    
+    color: #fff;
+    
+
+}
+.main-content .hero-image .hero-text-block button{
+    color:#fff;
+    /* background-color:#eb7e1e; */
+    font-size: 30px;
+    font-weight: 700;
+    padding: 15px;
+}
+.main-content .hero-image .hero-form h3, .main-content .hero-image .hero-form h4{
+    margin: 0;
+}
+.main-content .hero-image .hero-form h3{
+    margin-bottom: 20px;
+    padding: 10px
+}
+.main-content .hero-image .hero-form button, .main-content .hero-image .hero-form h3{
+    color: #fff;
+}
+.main-content .features-wrapper{
+    margin: 40px 0;
+    padding: 30px 0;
+}
+.main-content .features{
+    margin: 40px 0;
+}
+.main-content .features .feature-icon{
+    font-size: 70px;
+    color: #4267b2;
+    
+}
+
+
+/* // Small devices (landscape phones, less than 768px) */
+/* @media (max-width: 767.98px) { 
+    .main-content .features .feature-text-block{
+        text-align: center;
+        
+    }
+
+ } */
+ /* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .main-content .features .feature-text-block{
+        text-align: center;
+    
+        
+    }
+    /* .container-fluid {
+    
+        padding-right: 15px!important;
+        padding-left: 15px!important;
+        
+    } */
+}
+.main-content .branding-contact{
+    background: url("../images/adjustable-wrench-and-pipes.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    /* background-attachment: fixed; */
+    /* padding:50px; */
+}
+.main-content .branding-contact-content {
+    padding: 60px 0;
+    margin: 30px 0;
+    color:#fff;
+}
+.main-content .branding-contact-content h3{
+    margin: 20px 0;
+}
+.main-content .branding-contact-content button{
+    color:#fff;
+}
+
+.main-content .about{
+    padding: 30px 0;
+}
+.main-content .about h1{
+    margin: 30px 0;
+}
+.main-content .about-content-wrapper{
+    margin: 40px 0;
+}
+.main-content .about-content-wrapper .text-block{
+    padding-top: 15px;
+}
+.main-content .about-content-wrapper img{
+    width: 100%;
+}
+
+.main-content .google-review{
+    /* min-height: 400px; */
+    padding: 40px 0;
+
+}
+
+.main-content .google-review h1{
+    /* min-height: 400px; */
+    padding: 40px 0;
+
+}
+
+#map-plug {display:none;}
+
+#google-reviews {
+display:flex;
+flex-wrap:wrap;
+/* //display: grid;
+//grid-template-columns: repeat( auto-fit, minmax(320px, 1fr)); */
+}
+
+.review-item {
+/* border:solid 1px rgba(190,190,190,.35); */
+margin:0 auto;
+padding:1em;
+flex: 1 1 20%;
+}
+
+@media ( max-width:1200px) {
+  .review-item { flex: 1 1 40%; }
+}
+
+@media ( max-width:450px) {
+  .review-item { flex: 1 1 90%; }
+}
+
+.review-meta, .review-stars {text-align:center; font-size:115%;}
+.review-author { text-transform: capitalize; font-weight:bold; }
+.review-date {opacity:.6; display:block;}
+.review-text {  line-height:1.55; text-align:left; max-width:32em; margin:auto; text-align: center;}
+
+ 
+
+.review-stars ul {
+display: inline-block;
+list-style: none;
+margin:0; padding:0;
+}
+
+.review-stars ul li {
+float: left;
+margin-right: 1px;
+line-height:1;
+}
+
+.review-stars ul li i {
+  color: #E4B248;
+  font-size: 1.4em;
+  font-style:normal;
+}
+.review-stars ul li i.inactive { color: #c6c6c6;}
+.star:after { content: "\2605"; }
+
+
+.main-content .pricing-plan-wrapper{
+    padding: 30px 0;
+
+}
+
+.main-content .pricing-plan-wrapper .pricing-plan-header h1{
+    margin: 20px 0 35px 0;
+    
+}
+
+section.pricing {
+    /* background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF); */
+    /* background: #4267b2;
+    background: linear-gradient( to right, #4267b2, #007bff) */
+    margin-bottom: 20px;
+  }
+  
+  .pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .pricing .card-header{
+      padding: 25px 0;
+      background: #4267b2;
+      color: #fff;
+      /* border-radius: 50%; */
+  }
+  .pricing .card-header p{
+      margin-top: 15px;
+      font-size: 80%
+  }
+  .pricing hr {
+    margin: 1.5rem 0;
+  }
+  
+  .pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    /* color: #fff; */
+  }
+  
+  .pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .pricing .card-price .period {
+    font-size: 0.8rem;
+  }
+  
+  .pricing ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .pricing .text-muted {
+    opacity: 0.7;
+  }
+  
+  .pricing .btn {
+    font-size: 100%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+    color: #f7f7f7;
+  }
+  
+  /* Hover Effects on Card */
+  
+  @media (min-width: 992px) {
+    .pricing .card:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+    .pricing .card:hover .btn {
+      opacity: 1;
+    }
+  }
+
+.main-content .safety-logos{
+    margin: 20px 0;
+}
+.main-content .safety-logos img{
+    width: 150px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.main-content .emergency-contact{
+    background: url("../images/residential-floor-heating.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    /* background-attachment: fixed; */
+    /* padding:50px; */
+}
+.main-content .emergency-contact h3{
+    padding: 60px 0;
+    margin: 30px 0;
+    color:#fff;
+}
+
+/* .footer{
+    
+} */
+.footer-block{
+    background-color: #1e1d24;
+    padding: 50px 10px 30px 10px;
+}
+
+.footer-block .text-block h3{
+    color: #fff;
+    margin-bottom: 15px;
+}
+.footer-block .text-block p{
+    color: #f7f7f7
+}
+.footer-block .text-block p i{
+    /* color: #f7f7f7 */
+    margin-right: 10px
+}
+.footer-block .text-block p a{
+    /* color: #f7f7f7 */
+    color: #eb7e1e
+}
+.footer-copy{
+    background-color: #4267b2;
+    color: #ccc;
+    font-size: 12px;
+}
+.footer-copy p{
+    margin: 0;
+    padding: 10px
+}
+
+
+ /* Rates page css */
+
+ .seo small i{
+     font-size: 50%;
+     color: #fff;
+     font-weight: 300;
+ }
+
+ .main-content .rates-hero-image{
+    background: url("../images/rates-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    padding: 80px 0;
+}
+
+.main-content .rates-hero-image .hero-text-block {
+    margin: 50px 0;
+}
+.main-content .rates-hero-image .hero-text-block h1, .main-content .rates-hero-image .hero-text-block h4{
+    margin: 25px 0;
+}
+.main-content .rates-hero-image .hero-text-block h1{
+    font-size: 64px;
+    color: #fff;
+    font-weight: 700;
+
+}
+.main-content .rates-hero-image .hero-text-block button{
+    color:#fff;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 15px;
+}
+.main-content .rates-hero-image .hero-form h3, .main-content .rates-hero-image .hero-form h4{
+    margin: 0;
+    color: #fff;
+}
+.main-content .rates-hero-image .hero-form h3{
+    margin-bottom: 20px;
+    padding: 10px
+}
+.main-content .rates-hero-image .hero-form button, .main-content .hero-image .hero-form h3{
+    color: #fff;
+    
+}
+
+/* faq page css */
+
+.main-content .faq-hero-image{
+    background: url("../images/faq-page-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 150px 0;
+}
+
+.main-content .faq-hero-image .hero-text-block {
+    margin: 50px 0;
+}
+.main-content .faq-hero-image .hero-text-block h1{
+    margin: 25px 0;
+    
+}
+.main-content .faq-hero-image .hero-text-block h1{
+    font-size: 44px;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.faq{
+    margin-top: 50px;
+}
+.faq-header{
+    margin: 30px 0;
+}
+.faq .card .btn-link{
+    color: #4267b2
+}
+.faq .card .btn-link:hover {
+    color: #eb7e1e;
+    text-decoration: none;
+}
+
+.faq .card .btn-link.focus, .btn-link:focus {
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.faq .card {
+    border: 1px solid #4267b2; 
+}
+
+/* Contact page css */
+
+.main-content .contact-hero-image{
+    background: url("../images/contact-page-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 150px 0;
+}
+
+.main-content .contact .hero-form h3, .main-content .contact .hero-form h4{
+    margin: 0;
+}
+.main-content .contact .hero-form h3{
+    margin-bottom: 20px;
+    padding: 10px
+}
+.main-content .contact .hero-form button, .main-content .contact .hero-form h3{
+    color: #fff;
+}
+
+
+  .main-content .contact{
+      padding: 80px 0 0 0;
+  }
+  
+.main-content .contact .details{
+    
+    padding: 0 0 50px 0;
+
+}
+.main-content .contact .details .text-block h4 i{
+    color: #eb7e1e
+}
+.main-content .contact .details .text-block p{
+    margin-left: 30px;
+    font-weight: 400;
+    color:#4267b2
+}
+
+/* Area's covered page css */
+.main-content .area-hero-image{
+    background: url("../images/area-page-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 150px 0;
+}
+
+.nav-tabs .nav-item {
+    margin: 0 auto;
+    
+}
+
+
+.main-content .area-cover{
+    margin-top: 50px
+}
+.flex-container{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+} 
+.flex-item{
+    flex:1;
+    min-width:150px
+}
+
+.cl-white{
+    color: #fff!important;
+    background: #fff!important;
+}
