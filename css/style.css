@@ -1,9 +1,9 @@
 
 .container-fluid {
-    
+
     padding-right: 0!important;
     padding-left: 0!important;
-    
+
 }
 .base-color{
     background-color: #4267b2;
@@ -43,9 +43,9 @@
 
 }
 .main-content .hero-image .hero-text-block h4{
-    
+
     color: #fff;
-    
+
 
 }
 .main-content .hero-image .hero-text-block button{
@@ -75,32 +75,19 @@
 .main-content .features .feature-icon{
     font-size: 70px;
     color: #4267b2;
-    
+
 }
 
 
 /* // Small devices (landscape phones, less than 768px) */
-/* @media (max-width: 767.98px) { 
+/* @media (max-width: 767.98px) {
     .main-content .features .feature-text-block{
         text-align: center;
-        
+
     }
 
  } */
- /* // Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { 
-    .main-content .features .feature-text-block{
-        text-align: center;
-    
-        
-    }
-    /* .container-fluid {
-    
-        padding-right: 15px!important;
-        padding-left: 15px!important;
-        
-    } */
-}
+
 .main-content .branding-contact{
     background: url("../images/adjustable-wrench-and-pipes.jpg");
     background-repeat: no-repeat;
@@ -164,20 +151,14 @@ padding:1em;
 flex: 1 1 20%;
 }
 
-@media ( max-width:1200px) {
-  .review-item { flex: 1 1 40%; }
-}
 
-@media ( max-width:450px) {
-  .review-item { flex: 1 1 90%; }
-}
 
 .review-meta, .review-stars {text-align:center; font-size:115%;}
 .review-author { text-transform: capitalize; font-weight:bold; }
 .review-date {opacity:.6; display:block;}
 .review-text {  line-height:1.55; text-align:left; max-width:32em; margin:auto; text-align: center;}
 
- 
+
 
 .review-stars ul {
 display: inline-block;
@@ -207,7 +188,7 @@ line-height:1;
 
 .main-content .pricing-plan-wrapper .pricing-plan-header h1{
     margin: 20px 0 35px 0;
-    
+
 }
 
 section.pricing {
@@ -217,7 +198,7 @@ section.pricing {
     background: linear-gradient( to right, #4267b2, #007bff) */
     margin-bottom: 20px;
   }
-  
+
   .pricing .card {
     border: none;
     border-radius: 1rem;
@@ -238,7 +219,7 @@ section.pricing {
   .pricing hr {
     margin: 1.5rem 0;
   }
-  
+
   .pricing .card-title {
     margin: 0.5rem 0;
     font-size: 0.9rem;
@@ -246,24 +227,24 @@ section.pricing {
     font-weight: bold;
     /* color: #fff; */
   }
-  
+
   .pricing .card-price {
     font-size: 3rem;
     margin: 0;
   }
-  
+
   .pricing .card-price .period {
     font-size: 0.8rem;
   }
-  
+
   .pricing ul li {
     margin-bottom: 1rem;
   }
-  
+
   .pricing .text-muted {
     opacity: 0.7;
   }
-  
+
   .pricing .btn {
     font-size: 100%;
     border-radius: 5rem;
@@ -274,19 +255,8 @@ section.pricing {
     transition: all 0.2s;
     color: #f7f7f7;
   }
-  
-  /* Hover Effects on Card */
-  
-  @media (min-width: 992px) {
-    .pricing .card:hover {
-      margin-top: -.25rem;
-      margin-bottom: .25rem;
-      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
-    }
-    .pricing .card:hover .btn {
-      opacity: 1;
-    }
-  }
+
+
 
 .main-content .safety-logos{
     margin: 20px 0;
@@ -311,7 +281,7 @@ section.pricing {
 }
 
 /* .footer{
-    
+
 } */
 .footer-block{
     background-color: #1e1d24;
@@ -388,7 +358,49 @@ section.pricing {
 }
 .main-content .rates-hero-image .hero-form button, .main-content .hero-image .hero-form h3{
     color: #fff;
-    
+
+}
+@media ( max-width:1200px) {
+  .review-item { flex: 1 1 40%; }
+}
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+   .main-content .features .feature-text-block{
+       text-align: center;
+
+
+   }
+
+   .navbar .navbar-brand img{
+     width: 100%;
+   }
+   .main-content .rates-hero-image .hero-text-block h1{
+       font-size: 36px;
+       color: #fff;
+       font-weight: 700;
+
+   }
+   /* .container-fluid {
+
+       padding-right: 15px!important;
+       padding-left: 15px!important;
+
+   } */
+}
+@media ( max-width:450px) {
+  .review-item { flex: 1 1 90%; }
+}
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
 }
 
 /* faq page css */
@@ -405,7 +417,7 @@ section.pricing {
 }
 .main-content .faq-hero-image .hero-text-block h1{
     margin: 25px 0;
-    
+
 }
 .main-content .faq-hero-image .hero-text-block h1{
     font-size: 44px;
@@ -434,7 +446,7 @@ section.pricing {
 }
 
 .faq .card {
-    border: 1px solid #4267b2; 
+    border: 1px solid #4267b2;
 }
 
 /* Contact page css */
@@ -461,9 +473,9 @@ section.pricing {
   .main-content .contact{
       padding: 80px 0 0 0;
   }
-  
+
 .main-content .contact .details{
-    
+
     padding: 0 0 50px 0;
 
 }
@@ -486,7 +498,7 @@ section.pricing {
 
 .nav-tabs .nav-item {
     margin: 0 auto;
-    
+
 }
 
 
@@ -497,7 +509,7 @@ section.pricing {
     display:flex;
     flex-wrap: wrap;
     margin-top: 20px;
-} 
+}
 .flex-item{
     flex:1;
     min-width:150px
