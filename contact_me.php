@@ -26,9 +26,9 @@ $headers = "From: Info@commercial-gas-engineer.co.uk\n"; // This is the email ad
 $headers .= "Reply-To: $email_address";	
 mail($to,$email_subject,$email_body,$headers);
 
-echo "The details have been sent and a member of staff will be in touch shortly!";
+// echo "<h4>The details have been sent and a member of staff will be in touch shortly!</h4>";
 // header("Location: index.html")	;
-header("Location: index.html");
+header("Location: thank-you.html");
 return true;	
 
 ?>
